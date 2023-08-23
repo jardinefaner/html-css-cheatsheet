@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  background-color: cornsilk;
+}
+
+#banner {
+  width: 75%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+#banner h1 {
+  color: darkslategray;
+  font-size: 15em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 20px;
+}
+
+#nagivation {
+  height: 20%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  background-color: darkslategray;
+  padding: 1em;
+  border-radius: 1em;
+  color: cornsilk;
+}
+
+a:hover {
+  background-color: indianred;
+  color: darkslategray;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px;
+}
