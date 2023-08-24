@@ -2,58 +2,80 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: darkslategray;
 }
 
-html {
-  width: 100%;
+html,
+body {
+  height: 100%;
   background-color: cornsilk;
+  scroll-behavior: smooth;
 }
 
 #banner {
-  width: 75%;
-  height: 80%;
+  /* background-color: red; */
+  min-height: 90vh;
+  width: 80vw;
   margin: 0 auto;
 }
 
 #banner h1 {
-  color: darkslategray;
-  font-size: 15em;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 20%;
-  margin-bottom: 20px;
+  font-size: 12vh;
+  position: relative;
+  top: 20vh;
 }
 
-#nagivation {
-  height: 20%;
+#navigation {
+  position: fixed;
+  width: 100%;
+  /* background-color: blue; */
+  height: 10vh;
+  bottom: 0;
+  z-index: 10;
+  background-color: cornsilk;
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
-  color: black;
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: bold;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  background-color: darkslategray;
   padding: 1em;
-  border-radius: 1em;
-  color: cornsilk;
+  display: inline-block;
 }
 
 a:hover {
+  color: cornsilk;
   background-color: indianred;
-  color: darkslategray;
+  border-radius: 10em;
 }
 
 ul {
   list-style: none;
   text-align: center;
-  margin-top: 20px;
 }
 
 li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 1em;
+}
+
+main {
+  height: 200vh;
+  /* background-color: blue; */
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#colors,
+#typography {
+  height: 90vh;
+}
+
+h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  padding-top: 1em;
 }
